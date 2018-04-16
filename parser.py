@@ -194,7 +194,6 @@ def parse_file( fname, edges, polygons, transform, screen, color ):
             else:
                 save_extension(screen, args[0])
 
-
         elif line == 'push':
             copied = copy.deepcopy(stack[-1])
             stack.append(copied) 
